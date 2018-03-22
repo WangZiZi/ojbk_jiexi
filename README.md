@@ -60,10 +60,10 @@ server {
         #
         error_page   500 502 503 504  /50x.html;
         location = /50x.html {
-            root   html;
-   }
+            root   html;-->
+   <!--}-->
 
-  }-->
+  <!--}-->
 ```
 
 <!--### 其他需求请加[qq群](https://jq.qq.com/?_wv=1027&k=5G8OtPx)
