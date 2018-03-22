@@ -14,7 +14,7 @@
 
 ------
 
-## 以上都是基本的安装。
+<!--## 以上都是基本的安装。
 ### 修改域名
 `config.py`中：
 
@@ -22,17 +22,17 @@
 
     - `mm2`：恋恋影视的最新域名
 
-    - `porn91`：91porn的域名
+    - `porn91`：91porn的域名-->
 
-### 如果你需要使用MySQL
-修改`config.py`：注释第六行 --> 第五行开头#去掉，修改`user`、`passwd`、`database`
+<!--### 如果你需要使用MySQL
+修改`config.py`：注释第六行 --> 第五行开头#去掉，修改`user`、`passwd`、`database`-->
 
-### 配置自启动
+<!--### 配置自启动
 1. 修改`supervisord.conf`，将`directory`修改为脚本根目录
 2. echo "supervisord -c 网站根目录/supervisord.conf" >> /etc/rc.d/rc.local
-3. chmod +x /etc/rc.d/rc.local
+3. chmod +x /etc/rc.d/rc.local-->
 
-### 配置nginx
+<!--### 配置nginx
 修改nginx配置文件，添加`server`
 ```
 server {
@@ -63,10 +63,10 @@ server {
             root   html;
    }
 
-  }
+  }-->
 ```
 
-### 其他需求请加[qq群](https://jq.qq.com/?_wv=1027&k=5G8OtPx)
+<!--### 其他需求请加[qq群](https://jq.qq.com/?_wv=1027&k=5G8OtPx)
 
 ------
 示例网站：http://ojbk.us
